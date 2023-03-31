@@ -4,6 +4,6 @@ provider "google"{}
 resource "google_firestore_database""database" {
   project="olagt-380915"
   name="(default)"
-  location_id="northamerica-northeast1"
+  location_id="nam5"
   type="FIRESTORE_NATIVE"
 }
