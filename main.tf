@@ -2,7 +2,7 @@
 #CREATE A FIRESTORE NATIVE DATABASE
 provider "google"{}
 resource "google_firestore_database""database" {
-  project="olagt-380915"
+  project="assignment-project-383205"
   name="(default)"
   location_id="nam5"
   type="FIRESTORE_NATIVE"
